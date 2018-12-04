@@ -108,6 +108,12 @@
     <script>
         // Get the current year for the copyright
         $('#year').text(new Date().getFullYear());
+
+        // Configrue the slider to slow down a bit
+        $('.carousel').carousel({
+            interval: 5000
+            pause: 'hover'
+        })
     </script>
 </body>
 </html>
